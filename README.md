@@ -23,6 +23,7 @@ go build -trimpath -ldflags '-s -w -buildid='
 ## Usage
 
 ```shell
+# bellsoft-liberica buildpack
 ./sync-release -url https://github.com/paketo-buildpacks/bellsoft-liberica/raw/main/buildpack.toml
 
 # syft buildpack
