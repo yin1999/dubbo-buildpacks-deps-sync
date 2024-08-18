@@ -1,6 +1,6 @@
 module sync-release
 
-go 1.22.6
+go 1.22
 
 require (
 	github.com/aliyun/alibabacloud-oss-go-sdk-v2 v1.0.2
