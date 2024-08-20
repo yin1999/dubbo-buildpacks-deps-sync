@@ -78,10 +78,10 @@ func main() {
 	importEnv(envFile)
 
 	err := loadFromEnvAndCheck([]*string{
-		&url, &token, &region, &bucket,
+		&url, &region, &bucket,
 		&accessKeyID, &accessKeySecret,
 	}, []string{
-		"URL", "GITHUB_TOKEN", "REGION", "BUCKET",
+		"URL", "REGION", "BUCKET",
 		"ACCESS_KEY", "ACCESS_KEY_SECRET",
 	})
 	if err != nil {
