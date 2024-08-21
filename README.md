@@ -2,7 +2,7 @@
 
 ## Setup
 
-To sync releases from one GitHub repository to Aliyun OSS, you should configure some environment variables. For easy use the
+To sync releases from one GitHub repository to Aliyun OSS, you should configure some environment variables. For easy to use, the
 `sync-release` command will read the environment variables from a `.env` file in the current directory. You can copy the example
 file `.env-dist` to `.env` and fill in the values:
 
